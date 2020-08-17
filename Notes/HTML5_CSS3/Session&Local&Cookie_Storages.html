@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale"></meta>
+	<title>Session Storage</title>
+</head>
+<body>
+	<script type="text/javascript">
+		sessionStorage.setItem('Username','aditya');
+		//sessionStorage.clear();
+		//console.log(sessionStorage.getItem('Username'))
+		
+		//Session Storage limit is: 5MB and e.g. is any website login which will stay logged in will keep session storage safe.
+	   //But sometimes cookies are kept saved too but cookies time period has been lapsed then so it asks sometimes asks for another
+	  //Login as it usually does in several sites.
+	</script>
+	<script type="text/javascript">
+		//Local Storage
+		localStorage.setItem('username','venkar');
+		//In this you can open thousand of new tabs with same website,But it keeps the record of it in local Storage memory and has 
+		//memory of 5MB as well.
+	</script>
+	<script>
+		//Cookie Storage
+		document.cookie = 'username=sumapalli;expires=Mon, 10 Aug 2020 11:20:00 UTS'
+		//It keeps the records untill you delete it explicitly
+	</script>
+</body>
+</html>

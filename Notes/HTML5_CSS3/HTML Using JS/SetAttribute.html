@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SetAttribute</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.css">
+
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		var button = document.createElement("button");
+		button.innerText = "Click Me";
+		button.setAttribute("class","btn btn-dark");
+		button.setAttribute("onclick","showAlert()");
+		document.body.append(button);
+
+		function showAlert(){
+			alert('Thank You!');
+		}
+	</script>
+</body>
+</html>

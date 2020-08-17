@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Container&Various other TAGs</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.css">
+</head>
+<body>
+	<script type="text/javascript">
+		let heading = document.createElement('h1');
+		heading.setAttribute('class','bg-warning');
+		heading.innerText = 'Container&getElementById&getElementByTagName&appendChild()';
+		console.log(heading);
+
+		document.body.appendChild(heading);
+
+		let container = document.createElement('div');
+		container.setAttribute('class','container mycontainer');
+		container.setAttribute('id','contain');
+
+		let container2 = document.createElement('div');
+		container2.setAttribute('class','container mycontainer1');
+		container2.setAttribute('id','contain2');
+
+		container.innerHTML = '<p>main-container</p>';
+		container2.innerText = 'second container';
+
+		let container3 = document.createElement('div');
+		container3.setAttribute('class','container');
+		container3.setAttribute('id','contain3');
+
+		document.body.appendChild(container);
+		document.body.appendChild(container2);
+		document.body.appendChild(container3);
+
+		let value = document.getElementById('contain');
+		console.log(value);
+
+		let value1 = document.getElementsByTagName('div');//NOTE::GET-ELEMENT(S)-BY-TAGNAME
+		console.log(value1);
+
+	</script>
+</body>
+</html>
