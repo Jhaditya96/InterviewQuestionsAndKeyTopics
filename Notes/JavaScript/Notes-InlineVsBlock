@@ -1,0 +1,12 @@
+Q.Inline vs Block?
+A.There are two display values: block and inline
+	A block-level element always starts on a new line and takes up the full width available
+	An inline element does not start on a new line and it only takes up as much width as necessary
+	The <div> element is a block-level and is often used as a container for other HTML elements
+	The <span> element is an inline container used to mark up a part of a text, or a part of a document.
+
+	Compared to display: inline, the major difference is that inline-block allows to set a width and height on the element. Also, with display: inline, top and bottom margins & paddings are not respected, and with display: inline-block they are.
+
+	Now, the difference between display: inline-block and display: block is that, with display: block, a line break happens after
+	the element, so a block element doesn’t sit next to other elements.
+	LINK: https://alligator.io/css/display-inline-vs-inline-block/
