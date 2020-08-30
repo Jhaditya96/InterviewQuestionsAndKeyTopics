@@ -1,0 +1,110 @@
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="sendMssg()">
+            <h2 style="text-align: center;padding-top: 10px;">Registeration Form</h2>
+            <div class="inner-box">
+                <div class="input-column">
+                    <b class = "Writeup-style">Full Name</b>
+                    <span class = "Icons-style"><i class="fa fa-user icon"></i>
+                        <input class="input-format" type="text" placeholder="Full Name" name="name" maxlength="30" autocomplete="off"  required>
+                    </span>
+                </div>  
+            </div>
+          
+            <div class="inner-box">
+                <div class="input-column">
+                    <b class = "Writeup-style">Address Line 1</b>
+                    <span class="Icons-style"><i class="fa fa-user-circle icon"></i>
+                        <input class="input-format" type="text" placeholder="Address Line 1" name="address1" maxlength="30" autocomplete="off"  required>
+                    </span>
+                </div>  
+            </div>
+          
+            <div class="inner-box">
+                <div class="input-column">
+                    <b class = "Writeup-style">Address Line 2</b>
+                    <span class = "Icons-style"><i class="fa fa-user-circle icon"></i>
+                        <input class="input-format" type="text" placeholder="Address Line 2" name="address2" maxlength="30" autocomplete="off" required>
+                    </span>
+                </div>  
+            </div>
+            <div class="inner-box">
+                <div class="input-column">
+                    <b class = "Writeup-style">City</b>
+                    <span class = "Icons-style"><i class="fa fa-building-o icon"></i>
+                        <input class="input-format" type="text" placeholder="City" name="city" maxlength="30" autocomplete="off" required>
+                    </span>
+                </div>  
+            </div>
+            <div class="inner-box">
+                <div class="input-column">
+                    <b class = "Writeup-style">State/Region</b>
+                    <span class = "Icons-style"><i class="fa fa-map-marker icon"></i>
+                        <input class="input-format" type="text" placeholder="State/Region" name="region" maxlength="50" autocomplete="off" required>
+                    </span>
+                </div>  
+            </div>
+            <div class="inner-box">
+                <div class="input-column">
+                    <b class = "Writeup-style">Postal Code/ZIP</b>
+                    <span class = "Icons-style"><i class="fa fa-envelope icon"></i>
+                        <input class="input-format" type="Number" maxlength="6" placeholder="Postal Code" name="zip" autocomplete="off" required>
+                    </span>
+                </div>  
+            </div>
+            <div class="inner-box">
+                <div class="input-column">
+                    <b class = "Writeup-style">Country</b>
+                    <span class = "Icons-style"><i class="fa fa-flag icon"></i>
+                        <select class="input-format">
+                            <option value="">--Select Country--</option>
+                            <option value="IN">India</option>
+                            <option value="Ch">China</option>
+                            <option value="Aus">Australia</option>
+                            <option value="SF">South Africa</option>
+                            <option value="US">United States Of America</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="Ger">Germany</option>
+                            <option value="Ne">Netherland</option>
+                        </select>
+                    </span>
+                </div>  
+            </div>
+            <div class="inner-box">
+                <div class="input-column">
+                    <b class = "Writeup-style">Email</b>
+                    <span class = "Icons-style"><i class="fa fa-user icon"></i>
+                        <input class="input-format" type="email" placeholder="Email" name="email" maxlength="50" autocomplete="off" required>
+                    </span>
+                </div>  
+            </div>
+            <div class="inner-box">
+                <div class="input-column">
+                    <b class = "Writeup-style">Phone Number</b>
+                    <span class = "Icons-style"><i class="fa fa-user icon"></i>
+                        <input class="input-format" type="Number" placeholder="Phone" name="phone" minlength="10" maxlength="13" autocomplete="off" required>
+                    </span>
+                </div>  
+            </div>
+            <div style="text-align: center;">
+                <button type="submit" class="btn" style="text-align: center;padding: 8px;"><b>Submit</b></button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function sendMssg(){
+            alert("Thank You for Submitting!!");
+        }
+    </script>
+    
+</body>
+</html>

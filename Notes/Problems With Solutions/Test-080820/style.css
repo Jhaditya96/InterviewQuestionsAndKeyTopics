@@ -1,0 +1,49 @@
+.container {
+    margin-top: 20px;  
+    height:600px;
+    width:70%;
+    background-color: #BEBCBC;
+    margin-left: 205px;
+    margin-right: 65px;
+  }
+
+* {box-sizing: border-box;}
+
+.inner-box {
+  display: flex;
+  float: right;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+.icon {
+  padding: 10px;
+  background: darkgrey;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-format {
+  float: right;
+  width: 350px;
+  padding: 10px;
+  outline: none;
+}
+
+.input-column {
+    width: 100%;
+}
+.Writeup-style{
+  
+margin-left: 90px;  
+display: inline-block;
+float: left;
+font-family: sans-serif;
+}
+.Icons-style{
+display: inline-block; 
+float: right;
+margin-right: 90px;
+}
