@@ -1,9 +1,9 @@
-const fetchPromise = fetch("https://raw.githubusercontent.com/rvsp/restcountries-json-data/master/res-countries.json");
-fetchPromise
-    .then((response) => {
-        return response.json();
-    })
-    
+    const fetchPromise = fetch("https://raw.githubusercontent.com/rvsp/restcountries-json-data/master/res-countries.json");
+    fetchPromise
+        .then((response) => {
+            return response.json();
+        })
+        
     .then((finalData) => {
         let table = document.createElement('table');
         let tBody = document.createElement('tbody');
